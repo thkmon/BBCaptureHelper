@@ -341,8 +341,8 @@ public class CaptureForm extends JFrame {
 							}
 						}
 						
-						robot.mouseWheel(10);
-						doCapture(true);
+						robot.mouseWheel(1); // 자동스크롤
+						//doCapture(true);
 					}
 					
 				} else {
@@ -375,8 +375,8 @@ public class CaptureForm extends JFrame {
 							}
 						}
 						
-						robot.mouseWheel(10);
-						doCapture(true);
+						robot.mouseWheel(1); // 자동스크롤
+						//doCapture(true);
 					}
 					
 				} else {
